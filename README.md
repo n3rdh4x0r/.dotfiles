@@ -1,8 +1,11 @@
 # .dotfiles
 
-intstall required applications
+intstall neovim
 ```
-sudo apt install neovim tmux 
+sudo apt install cmake gettext lua5.1 liblua5.1-0-dev
+git clone https://github.com/neovim/neovim.git
+cd neovim && make CMAKE_BUILD_TYPE=RelWithDebInfo
+sudo make install
 ```
 
 install nerd fonts
