@@ -1,5 +1,9 @@
 # .dotfiles
 
+intstall required applications
+```
+sudo apt install neovim tmux 
+```
 
 Catppuccin for Tmux 
 
