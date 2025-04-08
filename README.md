@@ -8,6 +8,7 @@ cd neovim && make CMAKE_BUILD_TYPE=RelWithDebInfo
 sudo make install
 ```
 
+## Fonts
 ```
 mkdir -p ~/.local/share/fonts/
 
