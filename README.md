@@ -1,5 +1,11 @@
 # .dotfiles
 
+```
+sudo apt install arc-theme papirus-icon-theme alsa-utils pavucontrol volumeicon-alsa alacritty tmux 
+```
+
+
+
 intstall neovim
 ```
 sudo apt install cmake gettext lua5.1 liblua5.1-0-dev
@@ -35,4 +41,5 @@ Catppuccin for Tmux
 mkdir -p ~/.config/tmux/plugins/catppuccin
 git clone -b v2.1.2 https://github.com/catppuccin/tmux.git ~/.config/tmux/plugins/catppuccin/tmux
 ```
+
 
