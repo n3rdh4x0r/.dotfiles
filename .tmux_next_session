@@ -1,0 +1,13 @@
+n3rdh4x0r@n3rdh4x0r:~$ cat .tmux_next_session
+#!/bin/bash
+
+# ~/.tmux_next_session
+
+# Try to attach to any existing detached session
+detached_session=$(tmux list-sessions -F '#{?session_attached,,#S}' | head -n 1)
+
+if [ -n "$detached_session" ]; then
+    tmux attach -t "$detached_session"
+else
+    tmux new-session
+fi
