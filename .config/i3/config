@@ -214,3 +214,5 @@ default_border normal
 bindsym $mod+shift+x exec i3lock -c 000000
 
 exec_always --no-startup-id compton --config ~/.config/compton.conf -b
+
+exec --no-startup-id xrandr --output HDMI-2 --primary --auto --right-of eDP-1 --output eDP-1 --auto
